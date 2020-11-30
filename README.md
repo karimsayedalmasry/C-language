@@ -19,4 +19,4 @@ You will find here some popular c quizzes
 	Write a program that calculates the required heater
 	activation time according to the input temperature of
 	water
-- add two float number then get the floor of the their sum: 11.c
+- add two float number then get the floor of the their sum: 11.c 
