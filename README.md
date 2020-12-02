@@ -23,3 +23,10 @@ You will find here some popular c quizzes
 	activation time according to the input temperature of
 	water
 - add two float number then get the floor of the their sum: 11.c 
+-  a program that reads a positive integer and checks if it is a prime number: 12.c
+- a program to display English alphabets from A to Z: 13.c
+- a program to calculate the power of a number, The number and its power are input from user: 14.c
+- a program to display half pyramid using stars pattern: 15.c
+- a program to display inverted half pyramid using stars pattern: 16.c
+- a program to display a full pyramid using stars pattern: 17.c
+
