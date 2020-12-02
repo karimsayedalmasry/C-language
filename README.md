@@ -29,4 +29,5 @@ You will find here some popular c quizzes
 - a program to display half pyramid using stars pattern: 15.c
 - a program to display inverted half pyramid using stars pattern: 16.c
 - a program to display a full pyramid using stars pattern: 17.c
+- a program to reverse a number: 18.c
 
