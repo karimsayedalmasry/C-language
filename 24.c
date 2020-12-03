@@ -13,4 +13,5 @@ int bin(int x)
 printf("%d",x%2);  
 x=x/2; 
  return bin(x);
-}}
+}
+}
