@@ -31,5 +31,8 @@ You will find here some popular c quizzes
 - a program to display a full pyramid using stars pattern: 17.c
 - a program to reverse a number: 18.c
 - C Function that prints the cube of any number: 19.c
-- Write a C Function that returns the addition or subtraction or multiplication or division for two numbers. The function should take the required operation and two numbers as arguments. It also should check that the input operation is one of those operation that mentioned before and if not it should return error. The function should be implemented using switch case: 20.c
+- Write a C Function that returns the addition or subtraction or multiplication or division for two numbers. The function should take the required operation and two numbers as 	arguments. It also should check that the input operation is one of those operation that mentioned before and if not it should return error. The function should be 		implemented using switch case: 20.c
 - write a C Function that display Prime Numbers between Intervals (two numbers): 21.c
+- print the number of holes in a number,  1, 2, 3, 5 and 7 = 0 holes,  0, 4, 6, and 9 = 1 hole, 8 = 2 holes: 22.c
+- Write a C function that returns 1 if the input number is a power of 2 and return 0 if the input number is power of 3, otherwise it shall return -1: 23.c
+- Write a C function that prints the binary representation for a value using a recursive method: 24.c
