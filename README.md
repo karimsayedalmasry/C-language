@@ -36,3 +36,22 @@ You will find here some popular c quizzes
 - print the number of holes in a number,  1, 2, 3, 5 and 7 = 0 holes,  0, 4, 6, and 9 = 1 hole, 8 = 2 holes: 22.c
 - Write a C function that returns 1 if the input number is a power of 2 and return 0 if the input number is power of 3, otherwise it shall return -1: 23.c
 - Write a C function that prints the binary representation for a value using a recursive method: 24.c
+- Write a function called total, which totals the sum of an integer array passed to it (as the first parameter) and returns the total of all the elements as an integer. Let the   second parameter to the function be an integer which contains the number of elements of the array:25.c
+- Write a C function to return the index of FIRST occurrence of umber in a given array. Array index start from 0. If the item is not in the list return -1: 26.c
+	Example:
+	Array = {1,2,3,4,4,4}
+	The required number is 4 it should return 3
+- Write a C function to return the index of LAST occurrence of a number in a given array. Array index start from 0. If the item is not in the list return -1: 27.c
+	Example:
+	Array = {1,2,3,4,4,4}
+	The required number is 4 it should return 5
+- Write a program that computes the nth term of the arithmetic series: 1, 3, 5, 7, 9, … Run the program to compute the 100th term of the given series: 28.c
+- Write a program that computes the nth term of the geometric series: 1, 3, 9, 27, … Run the program to compute the 10th term of the given series: 29.c
+- The sequence of numbers 1, 1, 2, 3, 5, 8, 13, … is called Fibonacci numbers, each is the sum of the preceding 2. Write a program which given n, returns the nth Fibonacci 		number: 30.c
+		- with for/while
+		- with recursion
+- Write a C function to swap the contents of two arrays with the same length: 31.c
+-  Write a C function that takes an array as input and reverse it without creating another array: 32.c
+	Example:
+	Input : 1,2,3,4,5
+	Output: 5,4,3,2,1
