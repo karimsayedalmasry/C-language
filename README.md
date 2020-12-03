@@ -30,4 +30,6 @@ You will find here some popular c quizzes
 - a program to display inverted half pyramid using stars pattern: 16.c
 - a program to display a full pyramid using stars pattern: 17.c
 - a program to reverse a number: 18.c
-
+- C Function that prints the cube of any number: 19.c
+- Write a C Function that returns the addition or subtraction or multiplication or division for two numbers. The function should take the required operation and two numbers as arguments. It also should check that the input operation is one of those operation that mentioned before and if not it should return error. The function should be implemented using switch case: 20.c
+- write a C Function that display Prime Numbers between Intervals (two numbers): 21.c
