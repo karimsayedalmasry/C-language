@@ -13,9 +13,9 @@ void get_prime(int x , int y )
 {
 
     char flag = 0 ; 
-    for (int i = x ; i<=y ; i++)
+    for (int i = x ; i<=y ; i++) //count the numbers of intervals 
     {
-        for(int j = 2 ; j<i ; j++)
+        for(int j = 2 ; j<i ; j++) //check if a factor is found
         {
             if(i%j ==0)
             {

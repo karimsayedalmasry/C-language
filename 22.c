@@ -14,10 +14,9 @@ int countHoles(int x)
     int rev = 0 ; 
     int rem ; 
     int holes = 0;
-    while (num != 0) {
-        rem = num % 10; //3
-       // rev = rev * 10 + rem; // 0 + 3 
-        num =num/ 10; // 23 ----> 2 then loop again
+    while (num != 0) { //get each digit.
+        rem = num % 10; //the digit alone 
+        num =num/ 10; 
         
         switch (rem)
         {
@@ -34,7 +33,7 @@ int countHoles(int x)
         holes = holes +1 ; 
         break ;
         case 8:
-            holes = holes + 2 ; 
+        holes = holes + 2 ; 
         break;
         default:
             break;
