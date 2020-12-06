@@ -1,5 +1,6 @@
 #include<stdio.h>
 int temp = 1 ;
+int fib (int x, int y, int z  );
 void main(void)
 {   int x ;
     scanf("%d",&x);
@@ -19,6 +20,7 @@ void main(void)
         
         ;
     }
+    ////////////////////////////////////////////////////////////
     {
          printf("\n");
         int x ;
@@ -42,7 +44,7 @@ void main(void)
 
 
     }
-
+/////////////////////////////////////////////////////////
     {
         printf("\n");
         int x ; 
