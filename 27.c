@@ -16,7 +16,7 @@ int get_index(int arr[] , int size , int num)
         if(arr[i]==num)
         {
             occ = i ;
-           
+           //break;
         }
         else
         {
