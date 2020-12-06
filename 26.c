@@ -3,7 +3,7 @@ int get_index(int arr[] , int ,int );
 void main(void)
 {
 int Array[6] = {1,2,3,4,4,4} ;
-printf("%d", get_index(Array , 6 , 4));
+printf("%d", get_index(Array , 6/*size*/ , 4/*number*/));
 
 
 }
