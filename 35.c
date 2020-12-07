@@ -12,7 +12,7 @@ for(int i = 0 ; i<10 ; i++)
     {
         if(temp == arr[j])
         {
-            occ[i]++;
+            occ[i]++;//this number is repeated 
 
         }
     }
@@ -20,11 +20,11 @@ for(int i = 0 ; i<10 ; i++)
 
 for(int j = 0 ; j<10 ; j++)
     {
-        printf("%d," ,arr[j]);
+        printf("%d," ,arr[j]);//original 
     }
  printf("\n");
 for(int j = 0 ; j<10 ; j++)
     {
-        printf("%d,", occ[j]);
+        printf("%d,", occ[j]);//repeated numbers  
     }
 }
