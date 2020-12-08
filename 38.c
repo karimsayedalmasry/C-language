@@ -18,7 +18,7 @@ void scan(int *ptr, int size) //initialise the array.
         fflush(stdin);
         fflush(stdout);
     }
-        for (int i = size- 1 ; i >=0; i--)
+        for (int i = size- 1 ; i >=0; i--)//reverse order the array .
     {
         printf("%d,", *(ptr +i) );
     }
