@@ -6,15 +6,15 @@ int main()
    char str1[100] = {"karim"} ;
    char str2[100] ={"sayed"} ;
  
-   printf("Input a string\n");
+   printf("string 1\n");
 
  
-   printf("Input a string to concatenate\n");
+   printf("string 2\n");
 
  
    conc(str1, str2);
  
-   printf("String obtained on concatenation: \"%s\"\n", str1);
+   printf("concatinated: \"%s\"\n", str1);
  
    return 0;
 }
@@ -24,14 +24,14 @@ void conc(char p[], char q[]) {
    
    c = 0;
  
-   while (p[c] != '\0') {
+   while (p[c] != '\0') { //get end of p[]
       c++;      
    }
  
    d = 0;
  
    while (q[d] != '\0') {
-      p[c] = q[d];
+      p[c] = q[d]; //p[last elemtents ] = q[first element]
       d++;
       c++;    
    }
