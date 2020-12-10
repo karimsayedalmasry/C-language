@@ -2,7 +2,7 @@
 
 void main(void)
 {
-    char str[] = {"zxcvbnmasxdcfvgbhnjm"};
+    char str[] = {"hjbfvbdhbvhgscnvmdbj"};
     int count[21] ={0} ;
     char temp;
    
@@ -21,7 +21,7 @@ void main(void)
         for (int j = 0; j < 21; j++)
     {
 
-        printf("%c: %d\n", str[j],count[j]);
+        printf("%c:%d, ", str[j],count[j]);
     }
 
 }
