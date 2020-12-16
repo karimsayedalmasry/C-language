@@ -20,5 +20,6 @@ enum fan
 
 void main(void)
 {
-    u8 fan_level = level1 ;
+    u8 fan_level = level3 ;
+    printf("level: %d",fan_level);
 }
