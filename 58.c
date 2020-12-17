@@ -14,7 +14,7 @@ typedef long double f96;
 
 struct student
 {
-    char * name[10];
+    char *name[10];
     u8 score;
 };
 
@@ -48,14 +48,29 @@ void main(void)
     {
         sum = sum + students[j].score;
     }
-    printf("avg: %f", (float)sum / (float)(i));
+    f32 avg = (float)sum / (float)(i);
+    printf("avg: %f", avg);
     printf("\n the student below avg are :");
-   
+
     for (u8 p = 0; p < i; p++)
     {
-        fflush(stdin);
-        fflush(stdout);
-        printf("%s,", students[p].name);
+        if (students[p].score < avg)
+        {
+            fflush(stdin);
+            fflush(stdout);
+            printf("%s,", students[p].name);
+        }
     }
-    printf("%d", students[0].score);
+    printf("\nHighest score:\n");
+    u8 temp = students[0].score;
+    u8 temp_i ; 
+        for (u8 p = 0; p < i; p++)
+    {
+        if (temp < students[p].score)
+        {
+            temp = students[p].score;
+            temp_i = p ; 
+        }
+    }
+       printf("\n Highest score name: %s score: %d \n",students[temp_i].name,students[temp_i].score);
 }
