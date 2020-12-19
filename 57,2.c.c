@@ -11,8 +11,8 @@ typedef long double f128;
 
 #define SIZE 10
 
-void Selection_Sort(s32 *arr, s32 size);
-void merge(s32 *arr1, s32 *arr2 , s32 *arr3,s32 size );
+void Selection_Sort(s32 *arr, s32 size);//sort 2 arrays 
+void merge(s32 *arr1, s32 *arr2 , s32 *arr3,s32 size );//sort 2 arrays and merge them into a third 
 
 void main(void)
 {
@@ -37,7 +37,7 @@ void main(void)
 	}
 	
 */
-merge(arr1, arr2 , arr3,20 );
+merge(arr1, arr2 , arr3,20 );//sort 2 arrays and merge them into a third 
 for(int i= 0 ; i<20;i++)
 {
 	printf("%d," , arr3[i]);
